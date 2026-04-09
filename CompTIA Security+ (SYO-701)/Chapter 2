@@ -1,0 +1,122 @@
+## Basic Concepts from Chapter 2
+
+**Threat Actors**
+
+- [ ]  **White Hat Hacker** — Cybersecurity professional who conducts ethical hacking with the owner's permission
+- [ ]  **Hacktivist** — Driven by political/social/ethical beliefs, breaks into systems to spotlight perceived injustices
+- [ ]  **Insider Threat** — Has malicious intent and abuses legitimate access for harmful purposes (revenge, blackmail, data theft)
+- [ ]  **Shadow IT Threat Actor** — Uses unauthorized devices, software, or services within an organization for convenience
+- [ ]  **Organized Crime Actors** — Engage in cybercriminal activities for monetary gain (fraud, data theft)
+- [ ]  **State-Sponsored Actors** — Deploy cyberattacks to further geopolitical objectives or national interests
+
+
+**Social Engineering Attacks**
+
+- [ ]  **Pretexting** — Creating a fabricated scenario to deceive a target into providing information or performing an action
+- [ ]  **Whaling** — Phishing attack specifically targeting high-profile individuals like executives or CEOs
+- [ ]  **Influence Campaign** — Large-scale initiative (often by nation-states) to sway public opinion using disinformation
+
+
+**Network Attacks**
+
+- [ ]  **On-Path Attack (MitM)** — Intercepting or modifying data in transit between two parties
+- [ ]  **Reflected DDoS Attack** — Attacker sends requests using victim's spoofed IP to third-party servers, which respond back to the victim
+- [ ]  **Amplified DDoS Attack** — Uses spoofed IPs and a small set of servers to generate a large volume of traffic toward the victim
+- [ ]  **Wireless Attack** — Exploiting vulnerabilities or weaknesses in wireless networks or devices
+- [ ]  **Session Hijacking** — Attacker takes control of a user session by stealing or predicting a valid session ID
+- [ ]  **Wiretapping** — Physically connecting to network cables to monitor and capture data traffic
+- [ ]  **Packet Sniffing** — Capturing data packets traversing a network
+- [ ]  **Port Mirroring** — Switch sends a copy of network packets to a monitoring connection
+
+
+**Web-Based Attacks**
+
+- [ ]  **SQL Injection** — Executing malicious SQL code in a web application's database
+- [ ]  **Cross-Site Scripting (XSS)** — Inserting malicious scripts into web pages executed by unsuspecting users' browsers
+- [ ]  **Cross-Site Request Forgery (CSRF)** — Tricking an authenticated user into performing an unwanted action on a website
+- [ ]  **Directory Traversal** — Exploiting a web server vulnerability to access files outside the intended scope
+
+
+**Password & Cryptographic Attacks**
+
+- [ ]  **Brute Force Attack** — Attempting all possible password/key combinations until the correct one is found
+- [ ]  **Spraying Attack** — Trying common passwords against multiple accounts to find a match
+- [ ]  **Birthday Attack** — Finding two different inputs that produce the same hash output
+- [ ]  **Downgrade Attack** — Forcing a communication channel to use a weaker encryption algorithm or protocol
+
+---
+
+**Privilege & Access Attacks**
+
+- [ ]  **Privilege Escalation** — Exploiting vulnerabilities to elevate a user's access rights beyond what was assigned
+- [ ]  **ACL Tampering** — Altering an Access Control List to change permissions on objects
+- [ ]  **TOCTOU Attack** — Exploits a race condition between when a resource is checked and when it is actually used
+
+
+**Malware**
+
+- [ ]  **Trojan** — Disguises itself as legitimate software but performs malicious actions when executed
+- [ ]  **Rootkit** — Hides itself and other malware from detection, gives attacker persistent access and control
+- [ ]  **Logic Bomb** — Executes malicious action when a specific condition or trigger is met (date, event, etc.)
+- [ ]  **Fileless Malware** — Operates entirely in memory using legitimate system tools, leaves no files on disk
+
+
+**Hardware & Firmware Vulnerabilities**
+
+- [ ]  **Firmware Vulnerability** — Ability to modify or replace software controlling a hardware device's functionality
+- [ ]  **Hardware Tampering** — Physically altering or damaging hardware to compromise functionality or security
+- [ ]  **End-of-Life Vulnerability** — Exploiting devices no longer supported or updated by the manufacturer
+- [ ]  **Legacy Vulnerability** — Exploiting vulnerabilities in outdated devices still in use
+- [ ]  **Side Loading** — Installing apps from sources other than the official app store (USB, third-party sites)
+- [ ]  **VM Escape** — A process within a VM breaks out and interacts with the host system
+
+
+**Access Control & Defense**
+
+- [ ]  **Least Privilege** — Limits users to only the access level needed to perform their job
+- [ ]  **Configuration Enforcement** — Prevents unauthorized changes that increase vulnerability
+- [ ]  **Content Filtering** — Blocking or allowing content based on specific criteria (e.g. harmful websites)
+- [ ]  **Content Blocking** — Denying access to specific websites based on company policy
+- [ ]  **Firewall Rejection** — Traffic blocked by a firewall due to security rules
+- [x]  **Cloning** — Duplication of badges, access cards, or digital identities
+
+
+**Backup Types**
+
+- [ ]  **Image Backup** — Duplicates entire OS installation, allows quick redeployment without reinstalling software
+- [ ]  **File-Level Backup** — Copies individual files and directories, not the full OS
+- [ ]  **Incremental Backup** — Saves only changes since the last backup of any kind
+- [ ]  **Differential Backup** — Saves all changes since the last full backup
+
+
+**Reconnaissance**
+
+- [ ]  **Digital Espionage** — Cyber-related spying activities
+- [ ]  **Digital Diplomacy** — Using digital tools for diplomatic interactions, no public opinion manipulation
+
+
+**Protocols & Ports**
+
+- [ ]  **DNS (Domain Name System)** — Port 53, resolves domain names to IP addresses
+- [ ]  **FTP (File Transfer Protocol)** — Port 21, unencrypted file transfers
+- [ ]  **HTTP (Hypertext Transfer Protocol)** — Port 80, unencrypted web traffic
+- [ ]  **HTTPS (Hypertext Transfer Protocol Secure) / SSL (Secure Sockets Layer) / TLS (Transport Layer Security)** — Port 443, secure encrypted web traffic
+- [ ]  **SMTP (Simple Mail Transfer Protocol)** — Port 25, email transmission — disabling on non-mail machines prevents relay attacks
+- [ ]  **POP3 (Post Office Protocol version 3)** — Port 110, retrieving emails from a mail server
+- [ ]  **IMAP (Internet Message Access Protocol)** — Port 143, retrieving emails while keeping them stored on the server
+- [ ]  **NetBIOS (Network Basic Input/Output System)** — Port 139, file and print sharing over local networks
+- [ ]  **SNMP (Simple Network Management Protocol)** — Port 161, collecting info about managed network devices
+- [ ]  **SIP (Session Initiation Protocol)** — Port 5060, signaling for VoIP services
+- [ ]  **MSSQL (Microsoft SQL Server)** — Port 1433, restrict/monitor to prevent unauthorized database operations
+- [ ]  **RDP (Remote Desktop Protocol)** — Port 3389, exploitable for screen capture, keystroke logging, malware delivery
+- [ ]  **VNC (Virtual Network Computing)** — Port 5900, remote desktop access, exploitable for screen capture, keystroke logging, malware delivery
+- [ ]  **Telnet** — Port 23, unencrypted remote access, exploitable for eavesdropping, data theft, brute force
+- [ ]  **SSH (Secure Shell)** — Port 22, encrypted remote access, exploitable for on-path attacks like session hijacking or replay
+
+
+**Email Security**
+
+- [ ]  **S/MIME (Secure/Multipurpose Internet Mail Extensions)** — Uses email certificates to sign and encrypt email content, ensures authenticity and confidentiality
+- [ ]  **DMARC (Domain-Based Message Authentication, Reporting & Conformance)** — Focuses on authenticating the domain from which emails originate, uses DKIM and SPF results to handle non-conforming emails
+- [ ]  **DKIM (DomainKeys Identified Mail)** — Attaches a cryptographic signature to emails to verify the sender's domain
+- [ ]  **SPF (Sender Policy Framework)** — Defines which mail servers are authorized to send email on behalf of a domain
