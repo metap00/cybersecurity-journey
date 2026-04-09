@@ -1,0 +1,84 @@
+## Basic Concepts from Chapter 5
+
+**Risk Management**
+
+- [ ]  **Risk Appetite** — An organization's willingness to take on risk in pursuit of its business objectives
+- [ ]  **Risk Tolerance** — How much risk an organization can withstand or is comfortable with
+- [ ]  **Risk Acceptance** — Acknowledging a risk and choosing to accept its potential outcomes
+- [ ]  **Risk Threshold** — The predefined limit of acceptable risk that, once exceeded, triggers a response
+- [ ]  **Risk Deterrence** — Taking measures to reduce or mitigate the impact of a risk event
+- [ ]  **Neutral Risk Appetite** — Balanced approach, weighing risk and reward without extreme caution or aggression
+- [ ]  **Expansionary Risk Appetite** — Seeking aggressive growth despite high risks
+- [ ]  **Conservative Risk Appetite** — Leaning toward minimal risk taking
+
+**Quantitative Risk Metrics**
+
+- [ ]  **EF (Exposure Factor)** — The fraction of asset value at risk in a security incident (expressed as a percentage)
+- [ ]  **ARO (Annualized Rate of Occurrence)** — Expected frequency of a risk occurring within one year
+- [ ]  **SLE (Single Loss Expectancy)** — Financial cost of a single occurrence of a risk event
+- [ ]  **ALE (Annualized Loss Expectancy)** — Yearly expected financial loss from a risk (SLE x ARO)
+- [ ]  **Quantitative Risk Assessment** — Assigns numerical/financial values to risks
+- [ ]  **Qualitative Risk Assessment** — Categorizes risks descriptively without financial values
+- [ ]  **Residual Risk Analysis** — Assessing remaining risk after controls are applied
+- [ ]  **Threat Modeling** — Identifying potential attack paths rather than quantifying risks
+
+**Recovery Metrics**
+
+- [ ]  **RTO (Recovery Time Objective)** — Maximum acceptable time to restore systems after a disruption
+- [ ]  **RPO (Recovery Point Objective)** — Maximum acceptable amount of data loss measured in time
+- [ ]  **MTTR (Mean Time to Repair)** — Average time to restore a failed system to working state
+- [ ]  **MTBF (Mean Time Between Failures)** — Average time between consecutive system failures, indicates reliability
+- [ ]  **FMEA (Failure Mode and Effects Analysis)** — Proactive method to identify possible failures before they occur
+
+**Governance & Roles**
+
+- [ ]  **Data Owner** — Establishes ownership and control over data, makes decisions on its use and protection
+- [ ]  **Data Custodian/Steward** — Manages and controls access to data based on permissions defined by the data owner
+- [ ]  **Data Processor** — Processes and manipulates data on behalf of the data controller
+- [ ]  **Data Controller** — Defines the purposes and means of data processing
+- [ ]  **Committees** — Specialized groups of subject matter experts that support the governance board
+- [ ]  **Audit Committee** — Independently oversees internal controls, financial reporting, and compliance
+- [ ]  **Regulatory Agencies** — Create and enforce rules and standards organizations must follow
+
+**Agreements & Vendor Management**
+
+- [ ]  **MOU (Memorandum of Understanding)** — Non-binding agreement outlining mutual intentions between parties, precursor to a contract
+- [ ]  **MOA (Memorandum of Agreement)** — Outlines broader collaboration between parties
+- [ ]  **MSA (Master Service Agreement)** — Comprehensive contract establishing general terms for a long-term business relationship
+- [ ]  **SLA (Service Level Agreement)** — Defines expected service levels, performance metrics, and response times
+- [ ]  **BPA (Business Partners Agreement)** — Outlines roles and responsibilities in a specific business partnership
+- [ ]  **SOW (Statement of Work)** — Specifies detailed scope, tasks, deliverables, timelines, and costs for a specific project
+- [ ]  **Internal Audits** — Vendor's self-assessment of security practices, vulnerabilities, and controls
+
+**Reconnaissance**
+
+- [ ]  **Active Reconnaissance** — Directly engaging with target systems (port scanning, direct connections), leaves traces
+- [ ]  **Passive Reconnaissance** — Indirectly gathering information without touching target systems
+- [ ]  **OSINT (Open Source Intelligence)** — Collecting data from publicly available sources (websites, forums, social media)
+- [ ]  **Network Enumeration** — Detailed identification of network resources, occurs after reconnaissance
+
+**Penetration Testing**
+
+- [ ]  **White Box Test** — Tester has complete knowledge of the target environment including architecture and source code
+- [ ]  **Grey Box Test** — Tester has partial knowledge of the system, balance between insider and outsider perspective
+- [ ]  **Black Box Test** — Tester has zero knowledge of the target, simulates an external attacker
+- [ ]  **Passive Assessment** — Observing system behavior without active engagement or intrusion
+
+**Privacy & Compliance**
+
+- [ ]  **Right to be Forgotten** — Individual's right to request deletion of their personal data from an organization's records
+- [ ]  **CCPA (California Consumer Privacy Act)** — Broad cross-sector data protection rights for consumers, similar to GDPR
+- [ ]  **FISMA (Federal Information Security Management Act)** — Governs security of data processed by federal agencies
+- [ ]  **GLBA (Gramm-Leach-Bliley Act)** — Financial sector specific data protection regulation
+- [ ]  **PCI DSS (Payment Card Industry Data Security Standard)** — Industry standard for safe handling of credit card data
+
+**Security Concepts**
+
+- [ ]  **AES (Advanced Encryption Standard)** — Symmetric encryption standard for protecting data at rest and in transit
+- [ ]  **HMAC (Hash-Based Message Authentication Code)** — Creates message authentication codes using a hash function and secret key
+- [ ]  **SHA (Secure Hash Algorithm)** — Cryptographic hash functions designed to ensure data integrity
+- [ ]  **RSA (Rivest-Shamir-Adleman)** — Asymmetric encryption standard used for secure data transmission
+- [ ]  **Audit Trails** — Detailed sequential logs of system activity used to detect and examine security breaches
+- [ ]  **SDLC (Software Development Life Cycle)** — Divides software creation into phases, integrating security from the start
+- [ ]  **Change Management** — Controlled and planned implementation of changes, includes trial runs before full deployment
+- [ ]  **BPA (Business Process Analysis)** — Documents each operational step of a mission essential functio
