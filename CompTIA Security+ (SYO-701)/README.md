@@ -9,7 +9,7 @@ Documenting key concepts, terms, and personal notes as I study.
 - TryHackMe Cyber Security 101 path
 - Jason Dion practice exams (Udemy)
 
-##rogress
+##Progress
 - [x] Domain 1 — studied, 80%+ on practice questions
 - [x] Domain 2 — studied, 80%+ on practice questions
 - [x] Domain 3 — studied, 80%+ on practice questions
@@ -17,4 +17,5 @@ Documenting key concepts, terms, and personal notes as I study.
 - [x] Domain 5 — studied, 80%+ on practice questions
 - [x] Full practice exam #1 
 - [x] Full practice exam #2
+- [ ] As of 09.04.2026 I geep getting 85+ on first set of  practice exams from Jason Dion on Udemy
 - [ ] EXAM DAY -28.04.2026
