@@ -1,0 +1,115 @@
+## Basic Concepts from Chapter 4
+
+**Identity & Access Management (IAM)**
+
+- [ ]  **Least Privilege** — Users get only the minimum access needed to perform their job
+- [ ]  **Just-in-Time Permissions** — Access granted only when needed and for a short duration, minimizing exposure
+- [ ]  **SSO (Single Sign-On)** — Users log in once and gain access to multiple integrated systems
+- [ ]  **Passkey** — Authentication system based on public key cryptography, unlocked via device ownership
+- [ ]  **Physical Security Key** — Hardware device (USB/NFC) providing strong two-factor authentication
+- [ ]  **MFA (Multi-Factor Authentication)** — Requires multiple verification methods, especially critical in cloud environments
+- [ ]  **MAC (Mandatory Access Control)** — Assigns access based on sensitivity labels, not timing or duration
+- [ ]  **RBAC (Role-Based Access Control)** — Assigns permissions based on job function, not timing or duration
+- [ ]  **ABAC (Attribute-Based Access Control)** — Uses multiple attributes (user, environment, resource) to decide access
+
+
+**Network Security & Monitoring**
+
+- [ ]  **NAC (Network Access Control)** — Controls who and what can access the network based on security posture
+- [ ]  **Agent-Based NAC** — Uses software installed on a central server to monitor network traffic
+- [ ]  **Agentless NAC** — Monitors devices directly through network-level protocols, no software required
+- [ ]  **NetFlow** — Network monitoring tool that visualizes traffic flow patterns, identifies unusual behavior and security threats
+- [ ]  **SCAP (Security Content Automation Protocol)** — Cybersecurity framework enabling automated vulnerability assessment and compliance checking
+- [ ]  **DLP (Data Loss Prevention)** — Detects and prevents unauthorized transmission of sensitive data outside the network
+- [ ]  **Log Aggregation** — Collecting, normalizing, and centralizing log data from multiple sources for analysis
+- [ ]  **SSL Inspection (TLS Interception)** — Centralized proxy decrypts and inspects HTTPS traffic to detect encrypted threats
+
+
+**Firewalls & Traffic Management**
+
+- [ ]  **NGFW (Next-Generation Firewall)** — Advanced firewall with application awareness, deep packet inspection, and intrusion prevention
+- [ ]  **WAF (Web Application Firewall)** — Specifically protects against web application attacks like XSS and SQL injection
+- [ ]  **UTM (Unified Threat Management)** — Combines firewall, IPS, antivirus, and more into one appliance
+- [ ]  **Stateful Firewall** — Tracks active connection states to make packet decisions
+- [ ]  **Content Categorization** — Classifies websites by theme to block unsuitable or irrelevant content
+- [ ]  **Agent-Based Web Filter** — Installed directly on end-user device, enforces filtering on and off corporate network
+- [ ]  **Web Reputation Score** — Evaluates websites based on multiple criteria to gauge reliability and security risk
+
+
+**Wireless Security**
+
+- [ ]  **WEP (Wired Equivalent Privacy)** — Outdated, easily exploited wireless encryption, should never be used
+- [ ]  **TKIP (Temporal Key Integrity Protocol)** — Improvement over WEP but still weak, not recommended
+- [ ]  **WPA (Wi-Fi Protected Access)** — Improvement over WEP but has known vulnerabilities, especially in PSK mode
+- [ ]  **WPA3** — Latest and most secure wireless protocol, uses Diffie-Hellman key agreement, provides individualized encryption even on open networks
+- [ ]  **AES (Advanced Encryption Standard)** — Most secure and widely used wireless encryption protocol
+
+
+**Email Security**
+
+- [ ]  **DKIM (DomainKeys Identified Mail)** — Associates a domain with an email using a cryptographic signature to verify authenticity
+- [ ]  **SPF (Sender Policy Framework)** — Defines which mail servers are authorized to send email on behalf of a domain
+- [ ]  **DMARC (Domain-Based Message Authentication, Reporting & Conformance)** — Uses DKIM and SPF results to determine how to handle non-conforming emails
+- [ ]  **MTA (Mail Transfer Agent)** — Transfers and routes emails between servers, no cryptographic signing
+
+
+**Application & Software Security**
+
+- [ ]  **Code Signing** — Digitally signs software updates using cryptographic signatures to verify authenticity and integrity
+- [ ]  **Input Validation & Sanitization** — Ensures user input doesn't contain malicious SQL or scripts, prevents SQLi and XSS
+- [ ]  **SELinux (Security-Enhanced Linux)** — Linux kernel module providing access control policies, limits process permissions
+- [ ]  **Chroot Environment** — Restricts a process's view of the file system, less comprehensive than SELinux
+- [ ]  **Continuous Integration (CI)** — Frequently integrates code changes into a shared repository, detects security issues early
+- [ ]  **Exceptions & Exemptions** — Official permissions for deviations from security policies under controlled conditions with ongoing monitoring
+
+
+**Mobile Device Management (MDM)**
+
+- [ ]  **Remote Wipe** — Restores device to factory settings remotely, best MDM response to lost or stolen device
+- [ ]  **Full Device Encryption** — Encrypts all data on mobile device, slows but doesn't fully prevent determined attackers
+- [ ]  **MDM (Mobile Device Management)** — Platform for managing and securing employee mobile devices
+
+
+**Vulnerability Management**
+
+- [ ]  **CVE (Common Vulnerabilities and Exposures)** — Standardized identifier for publicly disclosed vulnerabilities, format: CVE-YEAR-NUMBER
+- [ ]  **CVSS (Common Vulnerability Scoring System)** — Rates the severity of vulnerabilities numerically, does not name them
+- [ ]  **Responsible Disclosure Program** — Allows vulnerabilities to be reported directly to organizations for patching
+- [ ]  **Vulnerability Prioritization** — Determines urgency of addressing vulnerabilities, does not name them
+
+
+**Incident Response**
+
+- [ ]  **Detection Phase** — Identifies and classifies incidents using IDS and SIEM tools
+- [ ]  **Containment Phase** — Limits contact with affected devices to stop spread
+- [ ]  **Eradication Phase** — Removes root cause of incident to prevent recurrence
+- [ ]  **Recovery Phase** — Restores affected systems to normal operation
+- [ ]  **Lessons Learned Phase** — Analyzes evidence and determines root cause after recovery
+- [ ]  **Chain of Custody** — Documents every person who handled evidence to maintain integrity and admissibility in court
+- [ ]  **E-Discovery** — Collection and handling of electronic data for use as evidence in legal cases
+- [ ]  **Threat Hunting** — Proactive search for threats and malicious activity before incidents occur or alerts trigger
+
+
+**Data Destruction & Disposal**
+
+- [ ]  **Secure Erase** — Overwrites data permanently, gold standard for data destruction
+- [ ]  **Degaussing** — Exposes drives to powerful electromagnetics to disrupt data, does not work on SSDs
+- [ ]  **Incineration** — Burns drives, less secure if using municipal incinerators
+- [ ]  **Industrial Shredding** — Thoroughly destroys drives leaving no data intact
+- [ ]  **Data Destruction Certification** — Formal document confirming secure and irreversible data removal, creates audit trail
+- [ ]  **HCL (Hardware Compatibility List)** — Lists hardware compatible with specific software, unrelated to data destruction
+- [ ]  **Asset Inventory Report** — Records all organizational assets, does not confirm data destruction
+
+
+**Network Infrastructure**
+
+- [ ]  **Router** — Operates at Layer 3, directs data between networks, implements access control policies
+- [ ]  **Switch** — Operates at Layer 2, manages internal network traffic using MAC addresses
+- [ ]  **Hub** — Operates at Layer 1, broadcasts to all devices, no security features, never use for secure transmission
+- [ ]  **Disabling Unused Ports** — Limits network entry points for unauthorized devices, key switch hardening technique
+
+
+**Automation & Orchestration**
+
+- [ ]  **Ticket Creation** — Tracks, manages, and coordinates IT tasks and issues, improves accountability
+- [ ]  **Automated Configuration** — Applies predefined configurations across multiple devices ensuring uniformity and security compliance
