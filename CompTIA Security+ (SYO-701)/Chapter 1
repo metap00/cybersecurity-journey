@@ -1,1 +1,82 @@
+## Basic Concepts from Chapter 1
 
+**Security Controls**
+
+- [ ]  **Vulnerability Management** — Operational security control involving identifying, assessing, and remediating vulnerabilities in systems and networks
+- [ ]  **Firewall** — Technical security control that monitors and controls incoming and outgoing network traffic based on predetermined rules
+- [ ]  **Intrusion Detection System (IDS)** — Technical security control that monitors network traffic for signs of security threats
+- [ ]  **Acceptable Use Policy (AUP)** — Directive control that specifies what actions are allowed and not allowed when using company resources
+
+**Cryptography — Encryption Types**
+
+- [ ]  **Symmetric Encryption** — Uses a single shared key to both encrypt and decrypt data
+- [ ]  **Asymmetric Encryption** — Uses a key pair: public key encrypts, private key decrypts (also called public-key cryptography)
+- [ ]  **Stream Cipher** — Encrypts data one byte or bit at a time, suitable when total message length is unknown
+- [ ]  **Block Cipher** — Encrypts data in fixed equal-sized blocks (typically 128-bit), requires padding if plaintext doesn't match block size
+- [ ]  **AES-256** — Widely used symmetric block cipher with a 256-bit key
+- [ ]  **Transparent Data Encryption (TDE)** — Encrypts entire databases
+- [ ]  **Volume Encryption** — Secures an entire volume or virtual drive
+- [ ]  **Partition Encryption** — Encrypts specific partitions on a disk
+- [ ]  **Record-Level Encryption** — Encrypts individual records within a database, can introduce inefficiencies at scale
+
+**Cryptography — Key & Hash Concepts**
+
+- [ ]  **Initialization Vector (IV)** — Ensures uniqueness of ciphertext even when identical plaintexts are encrypted with the same key
+- [ ]  **Key Stretching** — Repeatedly hashing a password to make it longer and more random
+- [ ]  **Salting** — Adding random data to a hash function input to increase security and prevent rainbow table attacks
+- [ ]  **Hashing** — Converting input of any length into a fixed-size string using a mathematical function
+- [ ]  **Key Escrow** — System where a copy of a cryptographic key is held by a third party for recovery purposes
+- [ ]  **Birthday Attack** — Cryptographic attack that finds two different inputs producing the same hash output
+
+**Data Protection Techniques**
+
+- [ ]  **Tokenization** — Substituting sensitive data with a non-sensitive token, both stored in a secure database
+- [ ]  **Steganography** — Concealing a file, message, or image within another file, message, or image
+- [ ]  **Data Masking** — De-identifying characters in a data sequence without changing the total character count
+- [ ]  **Digital Watermarking** — Embedding identifying information into digital content
+
+
+**Certificates & PKI**
+
+- [ ]  **PKI (Public Key Infrastructure)** — Set of roles, policies, and procedures for creating, managing, distributing, and revoking digital certificates
+- [ ]  **CSR (Certificate Signing Request)** — Message sent from an applicant to a CA to apply for a digital identity certificate
+- [ ]  **Self-Signed Certificate** — Generated and signed by the same entity, not backed by a trusted CA
+- [ ]  **Root Certificate** — Top-level certificate in a hierarchy, used to validate the issuing CA's certificate
+- [ ]  **Extended Validation Certificate** — Highest assurance level for websites, requires rigorous CA checks
+- [ ]  **Wildcard Certificate** — Secures multiple subdomains under a single main domain
+
+
+**Protocols**
+
+- [ ]  **RTP (Real-time Transport Protocol)** — Provides encryption, authentication, and integrity for voice communications over IP
+- [ ]  **ARP (Address Resolution Protocol)** — Maps 32-bit IP addresses to MAC addresses within a local network
+- [ ]  **ICMP (Internet Control Message Protocol)** — Used by networked systems to send error messages (e.g. service unavailable)
+
+
+**Blockchain**
+
+- [ ]  **Blockchain** — Expanding list of transactional records (blocks) where each block validates the hash of the previous one, ensuring records remain untampered
+
+
+**Zero Trust Framework**
+
+- [ ]  **Control Plane** — The decision-making brain of Zero Trust, determines who gets access to what
+- [ ]  **Data Plane** — Manages the actual transmission of data
+- [ ]  **Policy Engine** — Makes access decisions based on defined security policies
+- [ ]  **Policy Administrator** — Defines and manages the access control policies used by the policy engine
+- [ ]  **Policy Enforcement Point (PEP)** — Enforces security policies when a user or device attempts to access resources
+- [ ]  **Policy-Driven Access** — Tactic within the Control Plane ensuring access is granted based on clearly defined policies
+- [ ]  **Implicit Trust Zones** — Areas within a network where communication is allowed without exhaustive security checks (avoided in Zero Trust)
+
+
+**Access Control Models**
+
+- [ ]  **DAC (Discretionary Access Control)** — Resource owner decides who can access their resource
+- [ ]  **MAC (Mandatory Access Control)** — Access determined by a central authority using labels and classifications
+- [ ]  **RBAC (Role-Based Access Control)** — Permissions assigned to roles rather than individual users
+- [ ]  **ABAC (Attribute-Based Access Control)** — Access determined by a combination of user, resource, and environmental attributes
+
+
+**Other**
+
+- [ ]  **Database Defragmentation** — Organizing database contents to improve performance, not a security concept
