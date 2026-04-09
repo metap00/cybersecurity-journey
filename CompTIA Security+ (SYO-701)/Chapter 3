@@ -1,0 +1,109 @@
+## Basic Concepts from Chapter 3
+
+**Cloud & Architecture**
+
+- [ ]  **Responsibility Matrix** — Document defining roles and responsibilities of parties involved in a cloud service agreement
+- [ ]  **Hybrid Cloud** — Combines public and private cloud resources, requires special design considerations
+- [ ]  **Microservices** — Highly decentralized software architecture where small independent services work without depending on one platform
+- [ ]  **Serverless** — Architecture model that runs code without managing any underlying infrastructure
+- [ ]  **Infrastructure as Code (IaC)** — Managing and provisioning IT infrastructure through code
+- [ ]  **Containerization** — Encapsulates applications and their environments into isolated containers
+- [ ]  **Third-Party Vendors** — External entities providing services or products to an organization
+- [ ]  **Virtualization** — Creates multiple virtual machines on a single physical device
+
+
+**Firewall Types**
+
+- [ ]  **Packet-Filtering Firewall** — Permits or denies packets based on source/destination IP, protocol, and port number rules
+- [ ]  **Stateful Firewall** — Tracks active connection states and makes decisions based on traffic context
+- [ ]  **Proxy Firewall** — Acts as intermediary between users and servers, filters requests at the application layer
+- [ ]  **NGFW (Next-Generation Firewall)** — Advanced firewall with intrusion prevention, application awareness, and deep packet inspection
+
+
+**Network Security Devices**
+
+- [ ]  **UTM (Unified Threat Management)** — Consolidates IDS/IPS, firewall, content filtering, and anti-malware into one appliance
+- [ ]  **IPS (Intrusion Prevention System)** — Detects and prevents network attacks in real-time, more active than IDS
+- [ ]  **VPN Gateway** — Allows secure connection to a private network over the internet, no additional security functions
+- [ ]  **Proxy Server** — Stands between user and internet, masks internal servers to reduce attack surface
+- [ ]  **Jump Server** — Bridge for administrative access to servers in separate security zones
+- [ ]  **Load Balancer** — Distributes traffic across servers for performance, does NOT reduce attack surface
+- [ ]  **SD-WAN (Software-Defined Wide Area Network)** — Virtual WAN using any combination of transport services, not for user authentication
+
+
+**Network Segmentation**
+
+- [ ]  **Logical Segmentation** — Divides a larger network into distinct units, improves traffic management and security
+- [ ]  **SDN (Software-Defined Networking)** — Centralizes network control through software, not primarily for segmentation
+
+
+**Authentication Protocols**
+
+- [ ]  **EAP (Extensible Authentication Protocol)** — Flexible standard interface supporting multiple authentication methods for network access
+- [ ]  **RADIUS** — Protocol carrying authentication, authorization, and configuration info between a network access server and central server
+- [ ]  **LDAP (Lightweight Directory Access Protocol)** — Protocol for accessing directory systems over IP, used for user directory querying and authentication
+- [ ]  **WPA3 (Wi-Fi Protected Access 3)** — Security protocol for wireless networks, less flexible than EAP for multiple auth methods
+- [ ]  **IPSec (Internet Protocol Security)** — Secures internet communication across IP networks through encryption and authentication
+- [ ]  **ICMP (Internet Control Message Protocol)** — Used by network devices to send error messages, NOT for authentication
+
+
+**OSI Model Layers**
+
+- [ ]  **Layer 2 — Data Link** — Deals with frames and MAC addresses, switches operate here
+- [ ]  **Layer 3 — Network** — Handles IP addressing and routing, routers operate here
+- [ ]  **Layer 4 — Transport** — Handles TCP/UDP, port numbers, and connection-oriented communication
+- [ ]  **Layer 5 — Session** — Establishes, maintains, and terminates connections between applications
+- [ ]  **Layer 6 — Presentation** — Translates data between application and transport layers
+- [ ]  **Layer 7 — Application** — End-user services layer, filtering decisions based on URLs, HTTP headers, and application functions
+
+
+**Incident Response Exercises**
+
+- [ ]  **Tabletop Exercise** — Discussion-based scenario where participants talk through their response, no technology required
+- [ ]  **Simulation** — Team-based exercise with one team acting as attackers and another responding
+- [ ]  **Live Drill** — Uses real systems in real-time to simulate a cyberattack, requires immediate hands-on response
+
+
+**Backup & Recovery**
+
+- [ ]  **Full Backup** — Backs up entire system data regardless of changes
+- [ ]  **Incremental Backup** — Records only changes since the last backup of any kind
+- [ ]  **Differential Backup** — Stores all changes since the last full backup
+- [ ]  **Snapshot** — Captures system state at a specific instant without copying all data
+- [ ]  **Replication** — Real-time or near-real-time data copying to another location
+- [ ]  **Journaling** — Records all transactions, enables precise recovery to moment before failure
+- [ ]  **Continuous Backup** — Regularly saves data changes to minimize loss
+- [ ]  **RAID** — Combines multiple disks for redundancy and performance, no encryption
+- [ ]  **Full Disk Encryption (FDE)** — Encrypts entire disk, unreadable without decryption key
+- [ ]  **Data Deduplication** — Eliminates duplicate data to reduce storage, no security benefit
+
+
+**Power & Availability**
+
+- [ ]  **UPS (Uninterruptible Power Supply)** — Provides immediate short-term battery power during outages
+- [ ]  **Generator** — Long-term backup power, has a startup delay
+- [ ]  **Server Clustering** — Distributes workloads across multiple servers for availability and fault tolerance
+- [ ]  **Failover System** — Standby system that automatically takes over if the primary fails
+- [ ]  **Parallel Processing** — Simultaneously evaluates multiple restoration protocols after a compromise
+
+
+**Fail Modes**
+
+- [ ]  **Fail-Open** — System continues allowing traffic when errors occur, prioritizes availability over security
+- [ ]  **Fail-Closed** — System denies all traffic when errors occur, prioritizes security over availability
+
+
+**Risk Management**
+
+- [ ]  **Risk Transference** — Moving risk to another party (e.g. insurance)
+- [ ]  **Risk Acceptance** — Acknowledging risk and choosing not to act on it
+- [ ]  **Risk Mitigation** — Reducing impact or likelihood of risk through controls
+- [ ]  **Risk Avoidance** — Eliminating risk by avoiding the activity that causes it
+
+
+**Specialized Systems**
+
+- [ ]  **Embedded Systems** — Integrated into larger devices, hardcoded and difficult to patch
+- [ ]  **RTOS** — OS for time-critical tasks, sacrifices security for performance
+- [ ]  **ICS** — Controls industrial processes, difficult to patch due to continuous operation
+- [ ]  **Snowflake Systems** — Unique configurations causing drift, inconsistency, and unpatched vulnerabilities
