@@ -26,4 +26,7 @@ When dealing with most threats, you are likely to encounter some type of malicio
 # What is SIEM?
 SIEM is a security solution that combines security information and event management, which involves real-time logging of events in an environment. The ultimate purpose of event logging is to detect security threats.
 
+** For now I just started going through the SOC Fundamentals Lesson. I find it interesting I can view alerts and analyse them on the website. I cant wait to see how it goes
+
+
 
