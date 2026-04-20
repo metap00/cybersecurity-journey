@@ -11,3 +11,23 @@
 ## nmap commands
 
 ## ports
+20/21 - FTP - 20 for data, 21 for control
+22 - SSH /SFTP
+23 - Telnet
+25 - SMTP
+53 - DNS
+67/68 - DHCP - 67 is server, 68 is client
+80 - HTTP
+88 - Keberos
+110 - POP3
+143 - IMAP
+161/162 - SNMP - 161 for polling, 162 for traps
+389 - LDAP (lightweight directory access protocol)
+443 - HTTPS
+500 - IPsec
+587 - SMTPS
+636- LDAPS
+1433 - MSSQL (Microsoft sql server)
+1812,1813 - RADIUS
+3389 - RDP
+5060 - SIP (Session initiating protocol)
