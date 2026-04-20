@@ -8,6 +8,15 @@
   I have zero problems with the acronyms. 
   I started watching cyberkraft PBQ and they look very nice. A lot more exciting than some basic theory questions.
   I m learning the ports, but I still mess them up sometimes.
+
+Risk appetite = how much risk you want to take to chase goals
+Risk tolerance = how much risk you can handle before it's too much
+Risk acceptance = you know the risk exists and you say "fine, I'll take it" (yes/no decision for a specific risk)
+Risk deterrence = taking actions to discourage threats from happening (like putting up cameras to scare off attackers)
+Risk avoidance = eliminate the risk entirely by not doing the activity
+Risk transference = shift the risk to someone else (buying insurance, outsourcing)
+Risk mitigation = take steps to reduce the likelihood or impact of the risk
+  
 ## nmap commands
 
 ## ports
