@@ -121,7 +121,45 @@ Risk mitigation = take steps to reduce the likelihood or impact of the risk
 - [ ] **SDN (Software-Defined Networking)** — Separates control plane from data plane
 ## APIs
 - [ ] **API (Application Programming Interface)** — Enables software interaction and automation, NOT for enhancing UI
+## Web Security
+- [ ] **WAF (Web Application Firewall)** — Protects web apps against SQLi and XSS specifically. Keywords: "HTTP application," "WordPress," "SQL injection," "cross-site scripting"
+- [ ] **HIDS (Host-based IDS)** — Monitors a single host for suspicious activity, NOT designed for web application attacks specifically
 
+## Virtualization vs Containerization
+- [ ] **Virtualization** — Creates multiple ISOLATED ENVIRONMENTS (full OS) on a single physical device
+- [ ] **Containerization** — Packages an APPLICATION and its dependencies, shares the host OS kernel, NOT full isolation
+
+## CVSS Metrics
+- [ ] **AV (Attack Vector)** — HOW the exploit reaches the target: network, adjacent, local, or physical
+- [ ] **AC (Attack Complexity)** — How DIFFICULT it is to exploit, not the method of access
+- [ ] **S (Scope)** — Whether the vulnerability impacts resources beyond its own security scope
+- [ ] **UI (User Interaction)** — Whether a user must take action for the exploit to work
+
+## Data Roles
+- [ ] **Data Owner** — Determines data CLASSIFICATION and ensures alignment with organizational policies
+- [ ] **Data Controller** — Defines purposes and means of data PROCESSING
+- [ ] **Data Processor** — Processes data on behalf of the controller
+- [ ] **Data Custodian** — Manages access and day-to-day handling of data
+
+## Data Protection Techniques
+- [ ] **Tokenization** — Substitutes sensitive data with non-sensitive TOKENS, both stored in a SEPARATE DATABASE. Keywords: "substitute," "non-sensitive representation," "separate database"
+- [ ] **Obfuscation** — Makes data unclear/confusing but doesn't substitute with tokens in a separate database
+- [ ] **Hashing** — One-way function producing fixed output, no way to retrieve original data
+
+## Hardware Security (updated)
+- [ ] **HSM** — EXTERNAL physical device for key storage. Keywords: "external system," "not embedded"
+- [ ] **TPM** — EMBEDDED on Windows motherboards
+- [ ] **Secure Enclave** — EMBEDDED in Apple/Android devices
+- [ ] **Key Management System** — POLICY/PROCESS for managing keys, NOT a physical device
+
+## Governance (updated)
+- [ ] **Board** — EXTERNAL experienced individuals working with CEO to set policies. Keywords: "from outside the company," "works with CEO"
+- [ ] **Committee** — INTERNAL employees from different departments making collaborative decisions. Keywords: "diverse groups of employees"
+
+## Certificate Validation
+- [ ] **OCSP (Online Certificate Status Protocol)** — QUICKEST way to check if a certificate has been revoked, real-time status
+- [ ] **CRL (Certificate Revocation List)** — Published LIST of revoked certificates, must download and search, SLOWER than OCSP
+- [ ] **CA (Certificate Authority)** — Issues and manages certificates, not for quick status checks
 
 
 
