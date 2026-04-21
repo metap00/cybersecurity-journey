@@ -41,6 +41,107 @@ Risk mitigation = take steps to reduce the likelihood or impact of the risk
 3389 - RDP
 5060 - SIP (Session initiating protocol)
 
+## Hardware Security
+- [ ] **TPM (Trusted Platform Module)** — Chip on Windows motherboards, stores keys/certificates/passwords
+- [ ] **Secure Enclave** — Chip in Apple/Android devices, secures encryption keys only
+- [ ] **HSM (Hardware Security Module)** — External physical device for managing digital keys, NOT embedded
+- [ ] **UEFI (Unified Extensible Firmware Interface)** — Provides boot code for OS + enforces boot integrity checks
+- [ ] **RoT (Hardware Root of Trust)** — Verifies boot signatures, does NOT provide boot code
+## Cryptography
+- [ ] **ECC (Elliptic Curve Cryptography)** — Asymmetric, short keys = same security as longer RSA keys
+- [ ] **Diffie-Hellman** — Key EXCHANGE only, not encryption
+- [ ] **DSA (Digital Signature Algorithm)** — Digital signatures only, not encryption
+## Access Control
+- [ ] **RBAC (Role-Based Access Control)** — Access based on role ONLY
+- [ ] **ABAC (Attribute-Based Access Control)** — Access based on role + department + location + time + context
+## Zero Trust
+- [ ] **Policy Engine** — MAKES the access decision (the judge)
+- [ ] **PEP (Policy Enforcement Point)** — ENFORCES the decision (the police)
+- [ ] **Policy Administrator** — WRITES the policies (the lawmaker)
+## Malware
+- [ ] **Rootkit** — Hides from system tools, files mimic genuine executables
+- [ ] **Spyware** — Browser redirects, webcam activation, DNS redirection, screenshots
+- [ ] **RAT (Remote Access Trojan)** — Remote control access, but no DNS redirection
+- [ ] **Virus** — Attaches to programs and spreads, doesn't hide processes
+## DDoS Types
+- [ ] **Reflected** — Responses redirected to victim's IP
+- [ ] **Amplified** — Same as reflected BUT response is much larger than request
+## DNS Attacks
+- [ ] **Domain Hijacking** — Registration details changed, domain points elsewhere
+- [ ] **DNS Poisoning** — DNS server records altered to redirect traffic
+## Network Devices
+- [ ] **Switch** — Layer 2, internal segmentation between departments
+- [ ] **Router** — Layer 3, connects different networks (office to office)
+- [ ] **Hub** — Layer 1, broadcasts everything, zero security
+## Legislation
+- [ ] **SOX (Sarbanes-Oxley Act)** — US corporate financial reporting transparency
+- [ ] **Computer Security Act (1987)** — Federal agencies must secure confidential computer systems
+- [ ] **FISMA (Federal Information Security Management Act)** — Broader federal information security management
+- [ ] **GLBA (Gramm-Leach-Bliley Act)** — Financial sector customer data protection
+- [ ] **GDPR (General Data Protection Regulation)** — EU personal data protection
+## Standards
+- [ ] **ISO/IEC 27001** — THE foundational ISMS framework
+- [ ] **ISO/IEC 27002** — Guidance on ISMS controls, not the framework
+- [ ] **ISO/IEC 27017** — 27001 extended for cloud
+- [ ] **NIST SP 800-63** — US digital identity guidelines, not ISMS
+## Governance
+- [ ] **Committee** — Distributed decision-making across departments
+- [ ] **Board** — Top-level oversight by directors
+- [ ] **Stakeholders** — Representatives providing feedback from various departments
+## Change Management
+- [ ] **Approval Process** — Formalized review before implementation
+- [ ] **Maintenance Window** — Scheduled time for changes
+- [ ] **Backout Plan** — Revert plan if changes fail
+## Security Awareness Phases
+- [ ] **Development** — Creating new policies and procedures
+- [ ] **Deployment** — Implementing existing strategies
+- [ ] **Assessment** — Finding gaps in current protocols
+- [ ] **Review** — Re-evaluating based on feedback
+## Risk Documentation
+- [ ] **Risk Report** — Summarized for executives, shows status and changes
+- [ ] **Risk Register** — Ongoing tracker of all risks, not executive-facing
+## Virtualization
+- [ ] **VM Escape** — Breaking out of VM to host system
+- [ ] **Best defense** — Patch the HYPERVISOR, not individual VMs
+## Physical Security
+- [ ] **Microwave Sensor** — Electromagnetic signals detecting movement
+- [ ] **IR (Infrared) Sensor** — Heat/temperature changes detecting motion
+## Data Protection
+- [ ] **NDA (Non-Disclosure Agreement)** — Legally prevents unauthorized sharing of proprietary info
+- [ ] **Misconfiguration** — Root cause of data disclosure (default passwords, open ports)
+## Forensics
+- [ ] **Timestamps** — Most valuable metadata when investigating leaked documents
+- [ ] **Log Aggregation** — SIMPLIFIES log management, does NOT increase complexity
+## Vulnerability Validation
+- [ ] **Reviewing Event Logs** — Best method to confirm remediation worked
+- [ ] **Rescanning** — Finds remaining vulnerabilities but no log insights
+## Authentication
+- [ ] **Passkey** — Public key crypto, unlock phone = prove identity, no password needed
+## Networking
+- [ ] **SDN (Software-Defined Networking)** — Separates control plane from data plane
+## APIs
+- [ ] **API (Application Programming Interface)** — Enables software interaction and automation, NOT for enhancing UI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Concepts
 ARCHITECTURE (3.1) — your biggest leak
 Virtualization = multiple OS on one physical server, sharing resources. That's it.
