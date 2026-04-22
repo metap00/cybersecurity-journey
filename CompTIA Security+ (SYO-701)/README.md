@@ -19,3 +19,4 @@ Documenting key concepts, terms, and personal notes as I study.
 - [x] Full practice exam #2
 - [ ] As of 09.04.2026 I geep getting 85+ on first set of  practice exams from Jason Dion on Udemy
 - [ ] EXAM DAY -28.04.2026
+- [ ] I started studying all the acronyms using flashcards on Anki
