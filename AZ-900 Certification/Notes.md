@@ -15,8 +15,6 @@ I ll take notes going through all of the Domains.
   Serverless arhitecture = a cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. hosted as a pay-as-you-go model based on use. Resources are stateless, servers ephemeral and often capable of being triggered. (e.g. Function-as-Service)
 
   Serverless vs Paas (Platform as a Service) in terms of responsiblity:
-      -> what s alike =>Devs have to write code
-                      =>No server management
 <img width="1539" height="860" alt="image" src="https://github.com/user-attachments/assets/fc2a7d2c-83c1-47eb-8fcc-6f55e7ae19d0" />
 
 
