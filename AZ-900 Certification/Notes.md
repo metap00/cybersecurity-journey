@@ -28,6 +28,14 @@ I ll take notes going through all of the Domains.
   Serverless vs Paas (Platform as a Service) in terms of responsiblity:
 <img width="1539" height="860" alt="image" src="https://github.com/user-attachments/assets/fc2a7d2c-83c1-47eb-8fcc-6f55e7ae19d0" />
 
+  Word association to Servereless: 
+
+  -> Logic App = A cloud service that helps you schedule, automate, and orchestrate tasks, business processes, and workflows. You can choose from a gallery of hundreds of prebuilt connectors for MSFT & 3rd party services. Logic App is the foundation for Power Automate (MS Flow).
+
+
+  -> Functions = An event driven, compute-on-demand experience that extends the existing Azure application platform with capabilities to implement code triggered by events occurring in Azure as well as on-premises systems. This enables billing per execution rather than by time.
+
+  -> Event Grid = Enables you to easily manage events across many different Azure services and applications. Once a subscription is created, Event Grid will PUSH events to the configured destination. Makes it easy for any developer to utilize the “push” model instead of the inefficient “pull” across their Serverless architecture. Like Azure Functions, it is ‘pay per use’
 
 
   
