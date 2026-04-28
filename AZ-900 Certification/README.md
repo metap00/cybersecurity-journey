@@ -24,7 +24,7 @@ as part of my long-term path toward cloud security (AZ-500).
 ## Progress
 - 28/04 - I prepared all the documents/videos/study material I believe I need to get this. I m using:
 -     https://learn.microsoft.com/en-us/training/courses/az-900t00?source=learn
--      https://www.youtube.com/watch?v=8n-kWJetQRk
+-     https://www.youtube.com/watch?v=8n-kWJetQRk
 -     https://www.udemy.com/course/az900-azure/?couponCode=MT260428G3
 -     These three for videos and studying, and the next three for practice exams:
 -     https://insidethemicrosoftcloud.com/az900quiz/
