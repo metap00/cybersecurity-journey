@@ -18,11 +18,6 @@ as part of my long-term path toward cloud security (AZ-500).
 - [Notes coming as I study]
 
 ## Study Resources
-- Microsoft Learn free modules (official)
-- John Savill AZ-900 Study Cram (YouTube)
-
-## Progress
-- 28/04 - I prepared all the documents/videos/study material I believe I need to get this. I m using:
 -     https://learn.microsoft.com/en-us/training/courses/az-900t00?source=learn
 -     https://www.youtube.com/watch?v=8n-kWJetQRk
 -     https://www.udemy.com/course/az900-azure/?couponCode=MT260428G3
@@ -31,4 +26,8 @@ as part of my long-term path toward cloud security (AZ-500).
 -     https://www.udemy.com/course/az900-azure-tests/?couponCode=MT260428G3
 -     https://portal.tutorialsdojo.com/product/az-900-microsoft-azure-fundamentals-practice-exams/
 -     And I ll search for official practice exam too
--   
+
+## Progress
+- 28/04 - I prepared all the documents/videos/study material I believe I need to get this. I m using:
+arch for official practice exam too
+- 
