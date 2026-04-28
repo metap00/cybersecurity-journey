@@ -20,3 +20,4 @@ Documenting key concepts, terms, and personal notes as I study.
 - [ ] As of 09.04.2026 I geep getting 85+ on first set of  practice exams from Jason Dion on Udemy
 - [ ] EXAM DAY -28.04.2026
 - [ ] I started studying all the acronyms using flashcards on Anki
+- [ ] I passed it! 778 score. It was harder than expected. Last night I went through Messer's practice exams and they seemed way more diffcult. The PBQ's were not as easy as the ones from CYberKraft. Overall it;s perfect I passed, but I still have a lot to learn! But my Security+ journey ends here! I m going to build some practical skills starting today.
