@@ -2,16 +2,27 @@
 I ll take notes going through all of the Domains.
 # DOMAIN 1 Describe Cloud Concepts
   ### DOMAIN 1.1 Describe Cloud Computing
+  
   Cloud computing is the delivery of computing services over the internet Expands the traditional IT offerings to include services like: Internet of Things (IoT), Machine Learning (ML), Artificial Intelligence (AI). Enables organizations to quickly expand their compute footprint without the need to build a datacenter
+  
   Benefits of Cloud Computing: Cloud is cost-effective, global, secure, scalable, elastic, and always current. Allows organizations to transfer risk, operational responsability, and to focus on innovation.
+  
   -> Public Cloud: Everything runs on your cloud provider's hardware. Advantages include scalability, agility, PAYG, no maintenance, and low skills. Use to skip building your own datacenter.
+  
   -> Private Cloud: A cloud environment in your own datacenter. Advantages include legacy support, control, and compliance. Use when you need more control.
+  
   -> Hybrid Cloud: Combines public and private clouds, allowing you to run your apps in the right location. Advantages include flexibility in legacy, compliance, and scalability scenarios.
+  
   Economies of scale = The ability to do things more efficiently or at a lower-cost per unit when operating at a larger scale.
+  
   Capital Expenditure (CapEx) = is the spending of money on physical infrastructure up front. Associated with legacy on-premises datacenter scenarios.
+  
   Operational Expenditure (OpEx) = is spending money on services or products now and being billed as you go. Associated with public cloud consumption (pay-as-you-go).
+  
   Consumption-based model = Pay for what you use, typically per unit of time or capacity (per-minute, per-GB, per-execution).
+  
   Fixed price model = You provision resources and pay for those instances whether you use them or not. Ensures predictable costs for your cloud services.
+  
   Serverless arhitecture = a cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. hosted as a pay-as-you-go model based on use. Resources are stateless, servers ephemeral and often capable of being triggered. (e.g. Function-as-Service)
 
   Serverless vs Paas (Platform as a Service) in terms of responsiblity:
