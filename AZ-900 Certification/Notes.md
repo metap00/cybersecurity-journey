@@ -37,9 +37,13 @@ I ll take notes going through all of the Domains.
 
   -> Event Grid = Enables you to easily manage events across many different Azure services and applications. Once a subscription is created, Event Grid will PUSH events to the configured destination. Makes it easy for any developer to utilize the “push” model instead of the inefficient “pull” across their Serverless architecture. Like Azure Functions, it is ‘pay per use’
 
+  ### DOMAIN 1.2 Describe the benefits of using cloud services
+
+  -Availability = Encompasses availability of the infrastructure, applications, and services
+
+
 
   
-  ### DOMAIN 1.2 Describe the benefits of using cloud services
   ### DOMAIN 1.3 Describe Cloud Service Types
 # DOMAIN 2 Describe Azure Architecture and Services
   ### DOMAIN 2.1 Describe the core architectural components of Azure
