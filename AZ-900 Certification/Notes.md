@@ -39,7 +39,7 @@ I ll take notes going through all of the Domains.
 
   ### DOMAIN 1.2 Describe the benefits of using cloud services
 
-  -Availability = Encompasses availability of the infrastructure, applications, and services
+  - Availability = Encompasses availability of the infrastructure, applications, and services
 
 
 
