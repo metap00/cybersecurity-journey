@@ -62,7 +62,61 @@ I ll take notes going through all of the Domains.
   - Manageability = There are two aspects of manageability for the cloud: WHAT and HOW
     <img width="1069" height="1215" alt="image" src="https://github.com/user-attachments/assets/87457833-dc26-4ada-8e2e-200ad7533eac" />
 
+     ### DOMAIN 1.3 Describe cloud service types
+
+    Shared responsibility model:
+    (NETWORKING, STORAGE, SERVERS, VIRTUALIZATION, OS, MIDDLEWARE, RUNTIME, DATA, APPLICATIONS)
     
+    - On-premises means all responsiblities are yours. Private cloud lives here.
+    - IaaS (Infrastructure as a Service) = CSP takes on NETWORKING, STORAGE, SERVER AND VIRTUALIZATION -> CSP provides building blocks, like networking, storage and compute AND manages staff , HW, and data center  (e.g. Azure Virtual Machines, Amazon EC2, GCP  Compute Engine)
+   
+      IaaS use cases - when to use virtual machines?
+
+      During testing and development. VMs provide a quick and easy way to create different OS and application configurations.
+      
+      Test and dev teams can easily deploy and then delete the VMs when they no longer need them.
+      
+      When running applications in the cloud. Can provide technical and financial benefits, as when an application might need to handle fluctuations in demand.
+      
+      Shutting down VMs when you don't need them or quickly starting them up to meet a sudden increase in demand means you pay only for resources you use.
+
+      When extending your datacenter to the cloud. Can extend the capabilities of its own on-premises network by creating a virtual network in Azure and adding VMs to that virtual network.
+
+      Makes it easier/less expensive to deploy than on-premises.
+
+      During disaster recovery. Enables significant cost savings by using an IaaSbased approach to disaster recovery.
+
+      Enables push button, automated VM spin up and shutdown in a disaster.
+
+   - PaaS (Platform as a Service) = CSP takes on NETWORKING, STORAGE, SERVER, VIRTUALIZATION, OS, MIDDLEWARE, AND RUNTIME. Customer is responsible for deployment and management of apps. CSP manages provisioning, configuration, hardware, and OS. (e.g. Azure SQL Database, API Management, Azure App Service)
+
+     Paas Use cases - when to use Paas services?
+
+     Development framework
+
+     PaaS provides a framework that developers can build upon to develop or customize cloud-based applications. PaaS lets developers create applications using built-in software components. Cloud features such as scalability, high-availability, and multi-tenant capability are included, reducing the amount of coding that developers must do.
+
+     BOTTOM LINE: Reduces developer effort and increases solution quality
+
+     Analytics or business intelligence
+
+     Tools provided as a service with PaaS allow organizations to analyze and mine their data, finding insights and patterns and predicting outcomes. Improves forecasting, product design decisions, investment returns, and other business decisions.
+
+BOTTOM LINE: Simplifies data analysis and improves business outcomes 
+
+  - SaaS (Software as a Service) = Customer has some responsibility in access management and data recovery (DATA AND APPLICATIONS). Customer just configures features.
+CSP is responsible for management, operation, and service availability. (e.g. Office 365, servicenow, salesforce)
+
+  SaaS use cases - When to use SaaS services?
+
+  Common SaaS use cases include:
+  
+  Email and messaging, Business productivity applications, Finance and expense tracking
+  
+  BOTTOM LINE: These are important utility functions not core to the company’s purpose
+
+  SaaS enables companies to securely and reliably outsource a variety of functions so they can focus on revenue generation.
+ 
 
 
 
