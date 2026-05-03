@@ -123,7 +123,6 @@ CSP is responsible for management, operation, and service availability. (e.g. Of
 
 
   
-  ### DOMAIN 1.3 Describe Cloud Service Types
 # DOMAIN 2 Describe Azure Architecture and Services
   ### DOMAIN 2.1 Describe the core architectural components of Azure
   ### DOMAIN 2.2 Describe Azure compute and networking services
