@@ -20,3 +20,9 @@ john --wordlist=[path to wordlist] [path to file]
 Example Usage:
 
 john --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt
+
+## Identifying Hashes
+
+Sometimes, John won’t play nicely with automatically recognising and loading hashes, but that’s okay! We can use other tools to identify the hash and then set John to a specific format. There are multiple ways to do this, such as using an online hash identifier like this site(opens in new tab). I like to use a tool called hash-identifier(opens in new tab), a Python tool that is super easy to use and will tell you what different types of hashes the one you enter is likely to be, giving you more options if the first one fails.
+
+To use hash-identifier, you can use wget or curl to download the Python file hash-id.py from its GitLab page(opens in new tab). Then, launch it with python3 hash-id.py and enter the hash you’re trying to identify. It will give you a list of the most probable formats. These two steps are shown in the terminal below.
