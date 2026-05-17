@@ -23,6 +23,23 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt
 
 ## Identifying Hashes
 
-Sometimes, John won’t play nicely with automatically recognising and loading hashes, but that’s okay! We can use other tools to identify the hash and then set John to a specific format. There are multiple ways to do this, such as using an online hash identifier like this site(opens in new tab). I like to use a tool called hash-identifier(opens in new tab), a Python tool that is super easy to use and will tell you what different types of hashes the one you enter is likely to be, giving you more options if the first one fails.
+Sometimes, John won’t play nicely with automatically recognising and loading hashes, but that’s okay! We can use other tools to identify the hash and then set John to a specific format. There are multiple ways to do this, such as using an online hash identifier like hashes.com. I like to use a tool called hash-identifier, a Python tool that is super easy to use and will tell you what different types of hashes the one you enter is likely to be, giving you more options if the first one fails.
 
 To use hash-identifier, you can use wget or curl to download the Python file hash-id.py from its GitLab page(opens in new tab). Then, launch it with python3 hash-id.py and enter the hash you’re trying to identify. It will give you a list of the most probable formats. These two steps are shown in the terminal below.
+
+## Format-Specific Cracking
+
+Once you have identified the hash that you’re dealing with, you can tell John to use it while cracking the provided hash using the following syntax:
+
+john --format=[format] --wordlist=[path to wordlist] [path to file]
+
+- --format=: This is the flag to tell John that you’re giving it a hash of a specific format and to use the following format to crack it
+- [format]: The format that the hash is in
+
+Example Usage:
+
+john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt
+
+A Note on Formats:
+
+When you tell John to use formats, if you’re dealing with a standard hash type, e.g. md5 as in the example above, you have to prefix it with raw- to tell John you’re just dealing with a standard hash type, though this doesn’t always apply. To check if you need to add the prefix or not, you can list all of John’s formats using john --list=formats and either check manually or grep for your hash type using something like john --list=formats | grep -iF "md5".
