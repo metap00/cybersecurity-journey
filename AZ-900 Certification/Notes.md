@@ -117,15 +117,48 @@ CSP is responsible for management, operation, and service availability. (e.g. Of
 
   SaaS enables companies to securely and reliably outsource a variety of functions so they can focus on revenue generation.
  
+# DOMAIN 2 Describe Azure Architecture and Services
+
+  ### DOMAIN 2.1 Describe the core architectural components of Azure
+
+  - Azure Geography = A discrete market, typically containing two or more regions, that preserves data residency and compliance boundaries
+  - Azure Regions = A set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
+  - Azure Sovereign Regions = Special regions that you might need to for compliance or legal purposes: Government (Fed govt, DoD) -> physical and logical isolation; , China ; operated by special trustees
+  - Region Pairs = A relationship between 2 Azure Regions within the same geographic region for disaster recovery purposes.
 
 
+  - Management groups = Management groups provide a level of scope above subscriptions
 
+      Each directory is given a single top-level management group called the "Root"
+
+  - Subscriptions = Subscription is a logical container used toprovision resources in Azure
+
+Why would I create multiple subscriptions?  
+
+1. when subscription limits are reached 
+
+2. to use different payment methods
+
+3. to isolate resources between departments, projects, etc
+
+  - Resource groups = A container that holds related resources for an Azure solution. Used to group resources that share a common resource lifecycle.
+  - Resources = An entity managed by Azure, like a virtual machine, virtual network, or storage account.
+
+<img width="1609" height="806" alt="image" src="https://github.com/user-attachments/assets/bfbd260e-afb2-4ce1-a15a-ea95258e5594" />
+
+<img width="1606" height="789" alt="image" src="https://github.com/user-attachments/assets/08b6adc5-b879-4848-8e06-6df05213347d" />
+
+<img width="1608" height="803" alt="image" src="https://github.com/user-attachments/assets/4cb77565-4b61-42d5-a95a-83a463356804" />
+
+<img width="1615" height="791" alt="image" src="https://github.com/user-attachments/assets/e3527913-ae2a-4bb8-a183-5fda8986a693" />
+
+  - Availability zones = Unique physical locations within a region with independent power, network, and cooling. Comprised of one or more datacenters. Tolerant to datacenter failures via redundancy and isolation
+  - Azure datacenters = Physical buildings that contain thousands of servers and other hardware to provide cloud computing services. Azure datacenters are located all over the world and are organized into regions. Designed to be secure, reliable, and efficient, leveraging economies of scale, multi-tenant. Consists of multiple physical buildings, redundant power, ISPs, etc
+
+  ### DOMAIN 2.2 Describe Azure compute and networking services
 
 
   
-# DOMAIN 2 Describe Azure Architecture and Services
-  ### DOMAIN 2.1 Describe the core architectural components of Azure
-  ### DOMAIN 2.2 Describe Azure compute and networking services
   ### DOMAIN 2.3 Describe Azure Storage Services
   ### DOMAIN 2.4 Describe Azure Identity, Access, and Security
 # DOMAIN 3 Describe Azure Management and Governance 
